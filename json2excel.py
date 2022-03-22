@@ -1,8 +1,8 @@
 import pandas as pd
 from datetime import datetime
 
-def json2excel(jsonfilename: str, xlsxfilename: str):
-    data_new = pd.read_json(jsonfilename, orient='table')
+def json2excel(jsonstr: str, xlsxfilename: str):
+    data_new = pd.read_json(jsonstr, orient='records')
 
     text1='Landets Apotek'
     text2=datetime.now().strftime("%d/%m/%Y")
