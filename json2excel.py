@@ -5,7 +5,8 @@ def json2excel(jsonstr: str, xlsxfilename: str):
     data_new = pd.read_json(jsonstr, orient='records')
 
     text1='Landets Apotek'
-    text2=datetime.now().strftime("%d/%m/%Y")
+    date=datetime.now().strftime("%d.%m.%Y")
+    text2='Oversikt oppdatert: ' + date
 
     writer = pd.ExcelWriter(xlsxfilename)
     data_new.to_excel(writer, startrow=2, startcol=0, index=False)
