@@ -1,20 +1,27 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Azure Functions for å hente apotekinformasjon fra legemiddelverket
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+http://fest.legemiddelverket.no/ApotekregisterWebApp/
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+og
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+https://legemiddelverket.no/Documents/Import%20og%20salg/Apotekdrift/Apotektillatelser/landets%20apotek%20.xlsx
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+
+##  Azure functions
+
+
+## How to links
+
+https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python
+
+Merkelig det som står her
+https://docs.microsoft.com/en-us/azure/azure-functions/bring-dependency-to-functions?pivots=programming-language-python
+
+Se heller på https://stackoverflow.com/questions/58704759/deployment-of-azure-function-in-python-doesnt-install-dependencies-from-requirem  og
+
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Cazurecli-linux%2Capplication-level#python-version-and-package-management
+
+
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-add-output-binding-storage-queue-vs-code?pivots=programming-language-python&tabs=in-process
+

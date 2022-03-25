@@ -1,4 +1,3 @@
-from csv import excel
 import pandas as pd
 
 def excel2json(xlsxfilename: str):
