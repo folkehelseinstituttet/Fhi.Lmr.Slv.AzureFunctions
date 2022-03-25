@@ -2,6 +2,10 @@ import pandas as pd
 from datetime import datetime
 
 def json2excel(jsonstr: str, xlsxfilename: str):
+    '''Convert json text to excel.
+    the argument jsonstr takes a json string in the format records, 
+    and the xlsxfilename argument takes the filename of the new excel file that the program creates.'''
+    
     data_new = pd.read_json(jsonstr, orient='records')
 
     text1='Landets Apotek'
