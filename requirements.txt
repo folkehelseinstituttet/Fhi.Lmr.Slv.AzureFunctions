@@ -4,4 +4,9 @@
 
 azure-functions
 pandas==1.4.1
+openpyxl
+numpy
+six
+
+
 
